@@ -2,5 +2,5 @@
 
 {.experimental: "strict_funcs".}
 
-import binser/[msgpack, cbor, schema]
+import binpack/[msgpack, cbor, schema]
 export msgpack, cbor, schema

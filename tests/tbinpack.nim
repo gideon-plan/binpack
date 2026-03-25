@@ -1,7 +1,7 @@
 ## tbinser.nim -- Tests for binser binary serialization.
 {.experimental: "strict_funcs".}
 import std/[unittest, tables]
-import binser
+import binpack
 
 suite "msgpack":
   test "nil round-trip":
